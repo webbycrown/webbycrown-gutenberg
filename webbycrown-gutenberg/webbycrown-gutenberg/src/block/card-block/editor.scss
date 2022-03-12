@@ -1,0 +1,24 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-cgb-card-block {
+  background: white;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.wp-block-cgb-card-block .heading {
+  font-size: 24px;
+}
+
+.wp-block-cgb-card-block .media-wrapper {
+  padding: 50px;
+  text-align: center;
+  background-color: #f4f4f4;
+}

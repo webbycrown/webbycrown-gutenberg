@@ -1,0 +1,25 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-card-block {
+  background: white;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.wp-block-cgb-card-block .img-wrapper img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.wp-block-cgb-card-block .card-title,
+.wp-block-cgb-card-block .card-content {
+  text-align: center;
+}
